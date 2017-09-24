@@ -33,13 +33,12 @@ public class TestDriver {
 	{
 	   if (browser.equalsIgnoreCase("Firefox")) {
 	      driver = new FirefoxDriver();
-	      
+	      System.setProperty("webdriver.gecko.driver", "F:\\Selenium\\geckodriver-v0.14.0-win64\\geckodriver.exe");
 	   }
 	   else if (browser.equalsIgnoreCase("Chrome")) {
 	      System.setProperty("webdriver.chrome.driver", 
 	        "F:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 	      driver = new ChromeDriver();
-
 	   }
 	   else {
 	      throw new IllegalArgumentException("Invalid browser value!!");
