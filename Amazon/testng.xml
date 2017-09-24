@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultiBrowserSuite" parallel="tests" thread-count="2">
+   <test name="TestChrome">
+      <parameter name="browser" value="Chrome"/>
+      <classes>
+         <class name="com.amazon.test.LoginTest"/>
+      </classes>
+   </test>
+</suite>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MultiBrowserSuite" duration-ms="11202" started-at="2017-09-19T18:50:27Z" finished-at="2017-09-19T18:50:38Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="11202" started-at="2017-09-19T18:50:27Z" finished-at="2017-09-19T18:50:38Z">
+      <class name="com.amazon.test.LoginTest">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.amazon.test.LoginTest@3108bc]" name="config" is-config="true" duration-ms="642" started-at="2017-09-20T00:20:27Z" finished-at="2017-09-20T00:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.amazon.test.LoginTest@3108bc]" name="setBrowser" is-config="true" duration-ms="7530" started-at="2017-09-20T00:20:27Z" finished-at="2017-09-20T00:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.amazon.test.LoginTest@3108bc]" name="login" duration-ms="1545" started-at="2017-09-20T00:20:35Z" finished-at="2017-09-20T00:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.test.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="1061" started-at="2017-09-20T00:20:36Z" finished-at="2017-09-20T00:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:1, instance:com.amazon.test.LoginTest@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login2()[pri:2, instance:com.amazon.test.LoginTest@3108bc]" name="login2" duration-ms="263" started-at="2017-09-20T00:20:37Z" finished-at="2017-09-20T00:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.test.LoginTest@3108bc]" name="tearDown" is-config="true" duration-ms="114" started-at="2017-09-20T00:20:38Z" finished-at="2017-09-20T00:20:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login2 status=SUCCESS method=LoginTest.login2()[pri:2, instance:com.amazon.test.LoginTest@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.test.LoginTest -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- MultiBrowserSuite -->
+</testng-results>
